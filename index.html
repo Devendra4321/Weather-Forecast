@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Prediction</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Weather Forecast App</h1>
+    <div class="container">
+      <div class="container-left">
+        <div class="subcontainer-left">
+          <h2 class="search-head">Search</h2>
+          <input type="text" placeholder="Search with city name!" id="input" />
+          <button id="button">Search Weather</button>
+        </div>
+      </div>
+      <div class="container-right">
+        <div class="subcontainer-right" id="result">
+          <h2 class="heading"></h2>
+          <div class="result-div">
+            <div class="result-main">
+              <p class="city"></p>
+              <p class="temperature"></p>
+              <p class="wind"></p>
+              <p class="description"></p>
+            </div>
+
+            <div class="result-day">
+              <p class="last-day"></p>
+              <p class="temperature"></p>
+              <p class="wind"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

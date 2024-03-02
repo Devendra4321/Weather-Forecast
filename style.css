@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  text-align: center;
+  margin: 45px 0 20px 0;
+}
+
+.container {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-left {
+  margin-right: 50px;
+  padding: 10px;
+}
+
+.container-left .subcontainer-left {
+  margin: 20px 20px 0 40px;
+  font-size: 20px;
+  background-color: white;
+}
+
+.subcontainer-left .search-head {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.subcontainer-left #input {
+  width: 250px;
+  font-size: 16px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.subcontainer-left #button {
+  width: 150px;
+  font-size: 16px;
+  padding: 8px;
+  background-color: rgba(151, 28, 28, 0.525);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 8px;
+}
+
+.container-right {
+  padding: 10px;
+}
+
+.container-right .subcontainer-right {
+  margin: 20px 20px 0 0;
+  font-size: 20px;
+}
+
+.subcontainer-right .result-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.subcontainer-right .heading {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.subcontainer-right .result-main {
+  padding: 5px;
+  margin: 20px;
+}
+
+.subcontainer-right .result-day {
+  padding: 5px;
+  margin: 20px;
+}
